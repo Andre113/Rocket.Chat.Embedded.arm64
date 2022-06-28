@@ -94,13 +94,13 @@ Browserslist: caniuse-lite is outdated. Please run next command `npm update`
 ➔ |                SERVER RUNNING                |
 ➔ +----------------------------------------------+
 ➔ |                                              |
-➔ |  Rocket.Chat Version: 2.4.9                  |
+➔ |  Rocket.Chat Version: 8.4.1                  |
 ➔ |       NodeJS Version: 8.17.0 - arm64         |
 ➔ |      MongoDB Version: 4.0.12                 |
 ➔ |       MongoDB Engine: wiredTiger             |
 ➔ |             Platform: linux                  |
-➔ |         Process Port: 3000                   |
-➔ |             Site URL: http://localhost:3000  |
+➔ |         Process Port: 23754                   |
+➔ |             Site URL: http://localhost:23754  |
 ➔ |     ReplicaSet OpLog: Enabled                |
 ➔ |          Commit Hash: db19111d14             |
 ➔ |        Commit Branch: HEAD                   |

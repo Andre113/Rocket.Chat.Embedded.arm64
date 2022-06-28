@@ -4,7 +4,7 @@
 snapctl set caddy=disable
 
 # Initialize the PORT to a default
-snapctl set port=3000
+snapctl set port=23754
 
 # Initialize the MONGO_URL to a default
 snapctl set mongo-url=mongodb://localhost:27017/parties

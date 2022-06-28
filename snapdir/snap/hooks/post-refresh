@@ -9,7 +9,7 @@ fi
 # Initialize the PORT to a default
 port="$(snapctl get port)"
 if [ -z "$port" ]; then
-  snapctl set port=3000
+  snapctl set port=23754
 fi
 
 # Initialize the MONGO_URL to a default
