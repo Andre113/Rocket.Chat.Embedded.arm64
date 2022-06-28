@@ -7,7 +7,7 @@ RUN groupadd -r rocketchat \
 &&  useradd -r -g rocketchat rocketchat \
 &&  mkdir -p /app/uploads \
 &&  chown rocketchat.rocketchat /app/uploads \
-# `RUN mkdir ~/.gnupg
+&& `RUN mkdir ~/.gnupg
 && echo "disable-ipv6" >> ~/.gnupg/dirmngr.conf
 
 VOLUME /app/uploads
@@ -17,7 +17,7 @@ RUN gpg --batch --keyserver keyserver.ubuntu.com --recv-keys  0E163286C20D07B978
 
  
 
-ENV RC_VERSION 4.1.2
+ENV RC_VERSION 4.8.1
 
 WORKDIR /app
 
